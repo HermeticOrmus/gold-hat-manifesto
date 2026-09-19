@@ -1,5 +1,13 @@
 # The Gold Hat Manifesto
 
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-aa8142?style=flat-square" alt="MIT License" /></a>
+  <a href="https://github.com/HermeticOrmus"><img src="https://img.shields.io/badge/org-HermeticOrmus-aa8142?style=flat-square" alt="HermeticOrmus" /></a>
+  <img src="https://img.shields.io/badge/stance-empower%20over%20extract-aa8142?style=flat-square" alt="Empower over extract" />
+</p>
+
+**TL;DR:** When a design decision is unclear, choose the option that *empowers* the person using the tool — never dark patterns, surveillance, or addiction mechanics. This repo is the canonical statement of that constraint.
+
 The one question every tool should be built to answer: does this empower or extract?
 
 Software can hand control to the person using it, or quietly take control away. Most tools drift toward extraction because extraction is profitable: more time on screen, more data captured, more dependence. This is the stance that chooses the other direction on purpose, and keeps choosing it.
@@ -48,14 +56,29 @@ The phrase reframes the old security idiom: where black hats break in and white 
 
 The principle is free to take. To adopt it in your own project:
 
-1. Drop a `GOLD_HAT.md` in your repository.
+1. Drop a `GOLD_HAT.md` in your repository (many HermeticOrmus repos already include one — copy that shape if useful).
 2. State the tiebreaker in your own words: when a decision is unclear, choose the option that empowers the user.
 3. Link back here if you want a shared reference: `https://github.com/HermeticOrmus/gold-hat-manifesto`.
+4. Optional: add GitHub topic `gold-hat` so others can find aligned work.
 
 You do not need permission and you do not owe credit, though a link is welcome. The point is not attribution. The point is more software that empowers.
 
+### Short copy-paste blurb
+
+> This project follows the [Gold Hat](https://github.com/HermeticOrmus/gold-hat-manifesto) principle: empower over extract. No dark patterns, no surveillance capitalism, no addiction mechanics.
+
+## Where it shows up
+
+Public work under HermeticOrmus that carries this constraint includes (non-exhaustive):
+
+- [LibreUIUX-Claude-Code](https://github.com/HermeticOrmus/LibreUIUX-Claude-Code) — UI/UX system for Claude Code
+- [LibreEmbed-Claude-Code](https://github.com/HermeticOrmus/LibreEmbed-Claude-Code) — embedded / firmware plugins
+- [LibreGameDev-Claude-Code](https://github.com/HermeticOrmus/LibreGameDev-Claude-Code) — game-dev plugins
+- [grok-build-reality-os](https://github.com/HermeticOrmus/grok-build-reality-os) — Grok Build doctrine + guides
+- [invoice-forge](https://github.com/HermeticOrmus/invoice-forge) — self-hosted invoicing (no SaaS lock-in)
+
 ## License
 
-Released under MIT so the text is free to copy, adapt, and embed. The Gold Hat principle is the constraint on what gets built; the license is the constraint on how the words can be used. Both are open by design.
+Released under [MIT](LICENSE) so the text is free to copy, adapt, and embed. The Gold Hat principle is the constraint on what gets built; the license is the constraint on how the words can be used. Both are open by design.
 
 Build what elevates. Reject what degrades. Teach what empowers.
